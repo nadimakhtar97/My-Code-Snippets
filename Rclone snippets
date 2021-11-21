@@ -1,0 +1,4 @@
+// To copy a folder from one shared drive to another / one folder to another
+// This is server side copy
+
+rclone copy "source path" "desitination path"  -P -v --drive-server-side-across-configs
